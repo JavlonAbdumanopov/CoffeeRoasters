@@ -15,6 +15,22 @@ body {
   overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 8px;
+  background: #343c46;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  width: 8px;
+  background: #fff;
+}
+
 .title {
   font-family: Fraunces;
   font-style: normal;
@@ -1195,11 +1211,6 @@ body {
   .about-commit-box p {
     width: 327px !important;
   }
-  .container {
-    position: absolute;
-    top: 0;
-    left: 24px;
-  }
   .about-quality {
     margin-bottom: 100px !important;
   }
@@ -1410,13 +1421,13 @@ body {
   .modal-nav .header-nav-list {
     display: none !important;
   }
+  body {
+    overflow-x: hidden;
+  }
   .container {
     position: absolute;
     top: 0;
-    left: 25px;
-  }
-  body {
-    overflow-x: hidden;
+    left: 22px;
   }
 }
 /*# sourceMappingURL=style.css.map */

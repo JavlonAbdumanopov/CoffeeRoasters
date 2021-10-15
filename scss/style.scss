@@ -14,6 +14,23 @@ body {
     overflow-x: hidden;
 }
 
+// Web-kit class
+::-webkit-scrollbar {
+    width: 8px;
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 8px;
+    background: #343c46;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    width: 8px;
+    background: #fff;
+}
+
 // Global var
 $option-bg:#F4F1EB;
 $pale:#FDD6BA;
@@ -1330,12 +1347,6 @@ $light:#FEFCF7;
         }
     }
 
-    .container {
-        position: absolute;
-        top: 0;
-        left: 24px;
-    }
-
     .about-quality {
         margin-bottom: 100px !important;
 
@@ -1585,13 +1596,13 @@ $light:#FEFCF7;
         }
     }
 
+    body {
+        overflow-x: hidden;
+    }
+
     .container {
         position: absolute;
         top: 0;
-        left: 25px;
-    }
-
-    body {
-        overflow-x: hidden;
+        left: 22px;
     }
 }
